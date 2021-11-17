@@ -3,7 +3,6 @@ package com.example.android.guesstheword.screens.game
 import android.util.Log
 import androidx.lifecycle.ViewModel
 
-
 class GameViewModel : ViewModel() {
     // The current word
     var word = ""
@@ -47,6 +46,7 @@ class GameViewModel : ViewModel() {
         nextWord()
         Log.i("GameViewModel", "GameViewModel created!")
     }
+
     /**
      * Moves to the next word in the list
      */
